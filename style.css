@@ -17,6 +17,7 @@ body {
   /* display: flex; */
 
   max-width: 600px;
+
   /* border-radius: 20px; */
   /* background-color: black; */
   /* padding: 30px; */
@@ -25,17 +26,17 @@ body {
 .article-container .drawimg-container {
   background-color: white;
   border-radius: 15px 15px 0px 0px;
-  
+  /* height: 300px; */
 }
 .article-container .drawimg-container #draw-img {
-  width: 100%;
   border-radius: 15px 15px 0px 0px;
+  width: 100%;
 }
 .article-container .content-container {
   background-color: white;
   border-radius: 0px 0px 15px 15px;
   /* padding: 30px; */
-  
+  /* height: 300px; */
 }
 .article-container .content-container h2 {
   margin-bottom: 15px;
@@ -124,5 +125,5 @@ body {
   }
   .article-container .drawimg-container #draw-img {
     height: 100%;
-}
+  }
 }
