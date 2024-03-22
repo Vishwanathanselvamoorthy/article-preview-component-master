@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Manrope;
+}
+body {
+  background-color: hsl(210, 46%, 95%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 30px;
+}
+
+.article-container {
+  /* display: flex; */
+
+  max-width: 600px;
+  /* border-radius: 20px; */
+  /* background-color: black; */
+  /* padding: 30px; */
+}
+
+.article-container .drawimg-container {
+  background-color: white;
+  border-radius: 15px 15px 0px 0px;
+  
+}
+.article-container .drawimg-container #draw-img {
+  width: 100%;
+  border-radius: 15px 15px 0px 0px;
+}
+.article-container .content-container {
+  background-color: white;
+  border-radius: 0px 0px 15px 15px;
+  /* padding: 30px; */
+  
+}
+.article-container .content-container h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #5c656e;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+}
+.article-container .content-container p {
+  font-size: 13px;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+  padding: 0px 25px;
+}
+.article-container .content-container .footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.article-container .content-container .footer-container .profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.article-container .content-container .footer-container .profile-container p {
+  margin-top: 25px;
+  color: #515460;
+  font-weight: 700;
+}
+.article-container
+  .content-container
+  .footer-container
+  .profile-container
+  p
+  span {
+  display: block;
+  color: hsl(214, 17%, 51%);
+  font-weight: 500;
+}
+
+.article-container .content-container .footer-container .profile-container img {
+  width: 50px;
+  border-radius: 100%;
+}
+
+.sharebtn-container img {
+  background-color: hsl(210, 46%, 95%);
+  padding: 10px;
+  border-radius: 100%;
+}
+.article-container .content-container .share-container {
+  background-color: hsl(217, 19%, 35%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-radius: 0px 0px 15px 15px;
+  /* display: none; */
+}
+.article-container .content-container .share-container .icons-container {
+  display: flex;
+  gap: 15px;
+}
+.article-container .content-container .share-container .icons-container span {
+  color: #8b97ad;
+  font-size: 15px;
+  letter-spacing: 5px;
+  font-weight: 500;
+}
+
+.hide-container {
+  display: none !important;
+}
+
+@media screen and (min-width: 1440px) {
+  .article-container {
+    display: flex;
+    align-items: center;
+  }
+  .article-container .drawimg-container {
+    background-color: aquamarine;
+  }
+  .article-container .drawimg-container #draw-img {
+    height: 100%;
+}
+}
